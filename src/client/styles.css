@@ -13,3 +13,23 @@ div.content {
 .fluid {
   max-width: 100%;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.hideLeft {
+  opacity: 0;
+  transform: translateX(-3em);
+}
+
+.hideRight {
+  opacity: 0;
+  transform: translateX(3em);
+}
+
+.hideDown {
+  opacity: 0;
+  transform: translateY(5em);
+}
